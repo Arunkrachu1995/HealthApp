@@ -1,29 +1,10 @@
 <resources>
     <string name="app_name">Login Registration</string>
 
-    <string-array name="country_arrays">
-        <item>Choose Country</item>
-        <item>Bangladesh</item>
-        <item>United States</item>
-        <item>Indonesia</item>
-        <item>France</item>
-        <item>Italy</item>
-        <item>Singapore</item>
-        <item>New Zealand</item>
-        <item>India</item>
+    <string-array name="health">
+        <item>Choose</item>
+        <item>Date</item>
+        <item>Health</item>
+        <item>Value</item>
     </string-array>
-    <string name="title_activity_slidemenu">slidemenu</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-
-    <string name="menu_home">email</string>
-    <string name="menu_gallery">Phone Number</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
 </resources>

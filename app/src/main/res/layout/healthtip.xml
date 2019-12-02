@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Health Tips"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="@android:color/holo_green_dark"
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/input_group"
+        android:layout_width="371dp"
+        android:layout_height="579dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="103dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Crthth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Sugar LEVEL TIPS"
+            android:textAllCaps="true"
+            android:textColor="#FAD0E1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:fontFamily="serif-monospace" />
+
+        <TextView
+            android:id="@+id/recordhlth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="BLOOD PRESSURE"
+            android:textAllCaps="true"
+            android:textColor="#FAD0E1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:fontFamily="serif-monospace" />
+
+        <TextView
+            android:id="@+id/Wklyrpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="CALORIE INTAVE TIPS"
+            android:textAllCaps="true"
+            android:textColor="#FAD0E1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:fontFamily="serif-monospace" />
+        <TextView
+            android:id="@+id/Wkyrpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Weight MANAGEMENT"
+            android:textAllCaps="true"
+            android:textColor="#FAD0E1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:fontFamily="serif-monospace" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/button"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Back"
+
+        android:textAllCaps="false"
+        android:textColor="#FE5295"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

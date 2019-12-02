@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:layout_width="386dp"
+        android:layout_height="143dp"
+        android:layout_above="@+id/input_group"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="133dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="CREATE HEALTH"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+
+    </LinearLayout>
+
+
+        android:id="@+id/input_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/bplvl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="250dp"
+        android:text="BP Level"
+        android:textColor="#FFFCFC"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-condensed-medium">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/calorielvl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="290dp"
+        android:text="Calorie Level"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-condensed-medium">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sugarlvl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginRight="250dp"
+        android:text="Sugar Level"
+        android:textColor="#FDF8F8"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-condensed-medium">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginRight="250dp"
+        android:text="Height"
+        android:textColor="#F8F4F6"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-condensed-medium">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="250dp"
+        android:text="Weight"
+        android:textColor="#F8F7F7"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-condensed-medium">
+
+
+    </TextView>
+
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_top"
+
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="50dp"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_middle"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="50dp"
+            android:inputType="textEmailAddress"
+            android:padding="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_middle"
+
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="50dp"
+            android:inputType="textPassword"
+            android:padding="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_middle"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="50dp"
+
+            android:inputType="textPassword"
+            android:padding="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_middle"
+            android:layout_marginTop="505dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="50dp"
+            android:inputType="textPassword"
+            android:padding="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/button"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="SUBMIT"
+
+        android:textAllCaps="false"
+        android:textColor="#FE5295"
+        android:textSize="17sp"/>
+
+   llCaps="false"
+        android:textColor="#FE5295"
+        android:textSize="17sp" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

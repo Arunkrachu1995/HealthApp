@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="sans-serif"
+        android:text="CHECK HEALTH"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:fontFamily="sans-serif-condensed-medium" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif"
+        android:text="DATE  :"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:fontFamily="sans-serif-condensed-medium" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="222dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="480dp"
+        android:fontFamily="sans-serif"
+        android:text="HEALTH"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:fontFamily="sans-serif-condensed-medium" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:defaultFocusHighlightEnabled="true"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/health"
+        android:focusedByDefault="true"
+        android:textAlignment="gravity"
+        android:visibility="visible"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        tools:visibility="visible" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/button"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="OK"
+
+        android:textAllCaps="false"
+        android:textColor="#FE5295"
+        android:textSize="17sp"/>
+
+
+</RelativeLayout>

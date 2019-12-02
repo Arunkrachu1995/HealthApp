@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="128dp"
+        android:text="SUGGESTION"
+
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:fontFamily="sans-serif-condensed-medium" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="110dp"
+        android:text="Bp Level Suggestion"
+
+
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="60dp"
+        android:text="BP should be less than 130/80."
+
+        android:textColor="#12F112"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="95dp"
+        android:text="Sugar Level Suggestion"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="339dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"
+        android:text="sugar levels should be Btwn 4.0 to 5.4"
+
+        android:textColor="#12F112"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="92dp"
+        android:text="Calorie Level Suggestion"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="449dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="48dp"
+        android:text="Should eat 2000 Calorie per day"
+
+        android:textColor="#12F112"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="BACK"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textAllCaps="false"
+        android:textColor="#FE5295"
+        android:textSize="17sp"/>
+
+
+
+
+
+
+</RelativeLayout>
